@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.service_components_container {
+  font-family: var(--poppins);
+}
+
+.content {
+  background-color: var(--white);
+}
+
+.service_components_container p {
+  color: var(--text-color);
+}
+
+.service_components_container a {
+  color: var(--black);
+}
+
+.service_components_container a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.content {
+  background-color: var(--white);
+  line-height: var(--line-height-normal);
+}
+
+.main_service_header,
+.topics_header {
+  padding-top: var(--font-size-large);
+  color: var(--pure-white);
+  font-size: var(--font-size-huge);
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.topics_header {
+  color: var(--blue);
+  text-shadow: var(--text-shadow-1);
+  padding-bottom: var(--font-size-medium-2);
+}
+
+.content_para {
+  font-size: var(--font-size-normal);
+}
+
+.blue_content {
+  color: var(--blue);
+}
+
+.iframe_container {
+  position: relative;
+  width: 100%;
+  padding-top: 46.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* ----------------------------------------RESPONSIVENESS---------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1450px) {
+  .main_service_header,
+  .topics_header {
+    font-size: var(--font-size-medium-3);
+  }
+  .content_para {
+    font-size: var(--font-size-small-1);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .main_service_header,
+  .topics_header {
+    font-size: var(--font-size-medium-2);
+  }
+  .content_para {
+    font-size: var(--font-size-normal);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main_service_header,
+  .topics_header {
+    font-size: var(--font-size-medium-1);
+  }
+  .content_para {
+    font-size: var(--font-size-small-1);
+  }
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.about_container {
+  font-family: var(--poppins);
+}
+.about_bg {
+  background-image: url('../../Assets/Images/About_us.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.about_content {
+  background-color: var(--white);
+}
+
+.top_declaration {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  border: 1px solid black;
+}
+
+.about_header {
+  padding-top: var(--font-size-large);
+  color: var(--pure-white);
+  font-size: var(--font-size-huge);
+  text-shadow: 2px 1px 2px #000000;
+}
+
+.about_para,
+.first_description_para,
+.second_description_para {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-normal);
+}
+
+.first_description_para,
+.second_description_para {
+  color: var(--text-color);
+}
+
+.first_span,
+.second_span {
+  font-weight: 800;
+}
+
+.goals_row {
+  padding: 10rem 15rem;
+}
+
+.goals_header {
+  font-size: var(--font-size-medium-1);
+  color: var(--blue);
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.description_row {
+  padding: 3rem 0;
+}
+
+.first_description_para {
+  padding-right: 10rem;
+}
+
+.second_description_para {
+  padding-left: 10rem;
+}
+
+.first_image,
+.second_image {
+  width: 350px;
+  height: 400px;
+}
+
+.second_image {
+  width: 400px;
+  height: 380px;
+}
+
+/* ----------------------------------------RESPONSIVENESS---------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1450px) {
+  .about_header {
+    font-size: var(--font-size-medium-3);
+  }
+  .about_para,
+  .first_description_para,
+  .second_description_para {
+    font-size: var(--font-size-normal);
+  }
+  .first_description_para {
+    padding-right: 5rem;
+  }
+  .second_description_para {
+    padding-left: 5rem;
+  }
+  .goals_header {
+    font-size: var(--font-size-medium-2);
+  }
+  .goals_row {
+    padding: 10rem 3rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .about_header {
+    font-size: var(--font-size-medium-2);
+  }
+  .about_para,
+  .first_description_para,
+  .second_description_para {
+    font-size: var(--font-size-normal);
+  }
+  .first_description_para,
+  .second_description_para {
+    padding: 0 5rem;
+  }
+  .goals_header {
+    font-size: var(--font-size-medium-1);
+  }
+  .goals_row {
+    padding: 10rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .about_header {
+    font-size: var(--font-size-medium-1);
+  }
+  .about_para,
+  .first_description_para,
+  .second_description_para {
+    font-size: var(--font-size-small-1);
+  }
+  .first_description_para,
+  .second_description_para {
+    padding: 0 2rem;
+  }
+  .goals_header {
+    font-size: var(--font-size-medium);
+    text-shadow: none;
+  }
+  .goals_row {
+    padding: 7rem 3rem;
+  }
+  .first_image,
+  .second_image {
+    width: 250px;
+    height: 300px;
+  }
+}

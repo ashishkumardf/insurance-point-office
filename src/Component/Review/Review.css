@@ -1,0 +1,114 @@
+.review_container {
+  background-color: var(--white);
+  margin-top: -3rem;
+}
+
+.review-maindiv {
+  /* background: #3265a7 0% 0% no-repeat padding-box; */
+  background: #1b7ced 0% 0% no-repeat padding-box;
+  font-family: var(--poppins);
+}
+
+.review-item {
+  padding: 3%;
+}
+
+.review-inner {
+  width: 75%;
+  font-size: 25px;
+  text-align: left;
+  color: #3265a7;
+  opacity: 1;
+  /* background: #1870d5 0% 0% no-repeat padding-box; */
+  background: #1b7ced 0% 0% no-repeat padding-box;
+  /* box-shadow: 5px 5px 99px #00000029; */
+  box-shadow: 0px -1px 26px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px -1px 26px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 26px -6px rgba(0, 0, 0, 0.75);
+  opacity: 1;
+}
+
+.review-title {
+  width: fit-content;
+  font-weight: 600;
+  font-size: 30px;
+  border-top-style: solid;
+  border-top-color: #e6c744;
+  color: white;
+}
+/* 
+.quotes {
+  font-family: var(--quote);
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  font-size: 170px;
+} */
+
+.review-text {
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 20px 40px;
+  font-weight: 300;
+  color: white;
+}
+
+.quota {
+  font-size: 100px;
+  float: right;
+}
+/* .right {
+  float: right;
+} */
+
+/* .review-data {
+  float: right;
+  position: relative;
+  top: 150px;
+  color: white;
+} */
+
+.review-data {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+.city {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+  font-weight: 200;
+}
+
+/* ----------------------------------------RESPONSIVENESS-------------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1450px) {
+  .review-title {
+    font-size: var(--font-size-medium-2);
+  }
+  .review-text,
+  .review-data {
+    /* font-size: var(--font-size-large); */
+    font-size: var(--font-size-medium);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .review-title {
+    font-size: var(--font-size-medium-1);
+  }
+  .review-text,
+  .review-data {
+    font-size: var(--font-size-medium);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .review-title {
+    font-size: var(--font-size-normal-1);
+  }
+  .review-text,
+  .review-data {
+    font-size: var(--font-size-small-1);
+  }
+}

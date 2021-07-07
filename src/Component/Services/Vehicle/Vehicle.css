@@ -1,0 +1,6 @@
+.vehicle_service_bg {
+  background-image: url('../../../Assets/Images/Vehicle.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}

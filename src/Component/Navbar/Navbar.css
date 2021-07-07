@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.navbar_css {
+  font-family: var(--poppins);
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 100%;
+}
+
+.dropdown-menu {
+  font-size: var(--font-size-normal);
+}
+
+.navbar-nav .dropdown-menu {
+  position: inherit;
+  background-color: aliceblue;
+}
+
+.nav-width {
+  width: 98%;
+}
+
+.nav-link {
+  color: var(--pure-white);
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.active_class {
+  color: var(--blue);
+}
+
+/* ------------------------------RESPONSIVENESS---------------------------------- */
+
+@media only screen and (max-width: 992px) {
+  .navbar-collapse {
+    background-color: black;
+    z-index: 50;
+  }
+}

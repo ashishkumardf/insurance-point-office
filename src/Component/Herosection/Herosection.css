@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.main_herosection {
+  font-family: var(--poppins);
+  background-image: url('../../Assets/Images/bg.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: var(--pure-white);
+  text-shadow: var(--text-shadow);
+}
+
+.herosection {
+  margin-top: var(--font-size-ultimate);
+}
+
+.hero_para {
+  font-size: var(--font-size-medium-2);
+}
+
+.first_span,
+.second_span {
+  font-weight: 800;
+}
+
+.first_span {
+  color: var(--red);
+}
+
+.second_span {
+  color: var(--blue);
+}
+
+.hero_header {
+  font-size: var(--font-size-huge);
+  font-weight: 800;
+  line-height: var(--line-height-small);
+}
+
+.change_content {
+  font-size: var(--font-size-large);
+  color: var(--red);
+}
+
+.change_content:after {
+  content: '';
+  animation: changetext 15s infinite linear;
+}
+
+@keyframes changetext {
+  0% {
+    content: 'LIC INSURANCE...';
+  }
+  10% {
+    content: 'HEALTH INSURANCE...';
+  }
+  18% {
+    content: 'VEHICLE INSURANCE...';
+  }
+  26% {
+    content: 'ACCIDENTAL INSURANCE...';
+  }
+  34% {
+    content: 'TRAVEL INSURANCE...';
+  }
+  42% {
+    content: 'PRODUCT INSURANCE...';
+  }
+  50% {
+    content: 'MARINE INSURANCE...';
+  }
+  57% {
+    content: 'COMPANY INSURANCE...';
+  }
+  64% {
+    content: 'OFFICE INSURANCE...';
+  }
+  71% {
+    content: 'HOTEL INSURANCE...';
+  }
+  78% {
+    content: 'HOUSE INSURANCE...';
+  }
+  85% {
+    content: 'SHOP INSURANCE...';
+  }
+  92% {
+    content: 'FLAT INSURANCE...';
+  }
+  100% {
+    content: 'FINANCIAL INSURANCE...';
+  }
+}
+
+.hero_button {
+  font-weight: 800;
+}
+/* ----------------------------------------RESPONSIVENESS---------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1450px) {
+  .hero_para {
+    font-size: var(--font-size-medium-1);
+  }
+  .herosection {
+    margin-top: 10rem;
+  }
+  .hero_header {
+    /* font-size: var(--font-size-large); */
+    font-size: var(--font-size-medium-3);
+  }
+  .change_content {
+    /* font-size: var(--font-size-medium-2); */
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .hero_para {
+    font-size: 2.5rem;
+  }
+  .hero_header {
+    font-size: var(--font-size-medium-2);
+  }
+  .change_content {
+    font-size: var(--font-size-medium);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero_para {
+    font-size: var(--font-size-small-1);
+  }
+  .hero_header {
+    font-size: var(--font-size-medium-1);
+  }
+  .change_content {
+    font-size: var(--font-size-normal-1);
+  }
+}

@@ -1,0 +1,6 @@
+.office_service_bg {
+  background-image: url('../../../Assets/Images/office_bg.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}

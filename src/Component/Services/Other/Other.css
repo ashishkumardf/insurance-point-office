@@ -1,0 +1,18 @@
+.other_service_bg {
+  background-image: url('../../../Assets/Images/other_financial_services.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.other_services_container {
+  padding-bottom: 5rem;
+}
+
+.other {
+  align-items: center;
+}
+
+.form_title {
+  text-align: center;
+}

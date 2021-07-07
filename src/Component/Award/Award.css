@@ -1,0 +1,50 @@
+.award_container {
+  background-color: var(--white);
+  font-family: var(--poppins);
+}
+
+.award_bg {
+  background-image: url('../../Assets/Images/Awards.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.award_section {
+  padding-top: 7rem;
+}
+
+.award_image {
+  width: 23rem;
+  height: 25rem;
+  margin-bottom: 7rem;
+  border: 2px solid var(--blue);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  box-shadow: 6px 5px 36px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 5px 36px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 5px 36px -8px rgba(0, 0, 0, 0.75);
+  transition: all 0.6s ease;
+}
+
+.award_image:hover {
+  border: 2px solid var(--red);
+}
+
+.award_div {
+  transition: all 0.4s ease;
+}
+
+.award_div:hover {
+  transform: scale(1.15, 1.15);
+}
+
+/* ---------------------------------------------RESPONSIVENESS-------------------------------------------- */
+
+@media only screen and (max-width: 576px) {
+  .award_image {
+    width: 15rem;
+    height: 18rem;
+  }
+}

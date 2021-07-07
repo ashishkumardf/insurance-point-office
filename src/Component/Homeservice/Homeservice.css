@@ -1,0 +1,33 @@
+.homeservice_container {
+  background-color: var(--white);
+  margin-top: -3rem;
+}
+
+.service_card {
+  width: 15rem;
+  height: 15rem;
+  transition: all 0.3s ease;
+}
+
+.service_card:hover {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.homeservice_image {
+  padding-top: 1.5rem;
+  width: 7rem;
+  height: 8rem;
+}
+
+.homeservice_para {
+  margin-top: 0.5rem;
+  color: var(--blue);
+}
+
+.homeservice_para:hover {
+  color: var(--red);
+}

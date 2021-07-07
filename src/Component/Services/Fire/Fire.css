@@ -1,0 +1,6 @@
+.fire_service_bg {
+  background-image: url('../../../Assets/Images/fire_bg.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}

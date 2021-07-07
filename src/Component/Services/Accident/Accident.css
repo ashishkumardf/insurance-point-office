@@ -1,0 +1,6 @@
+.accidental_service_bg {
+    background-image: url('../../../Assets/Images/Accidental.jpg');
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
