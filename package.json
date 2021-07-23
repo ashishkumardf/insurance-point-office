@@ -1,7 +1,7 @@
 {
   "name": "insurance",
   "version": "0.1.0",
-  "homepage": "https://ashishkumardf.github.io/insurance-point-office",
+  "homepage": "https://insurancepointoffice.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free-solid": "^5.0.13",

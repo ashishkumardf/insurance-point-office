@@ -119,7 +119,7 @@ const Health = () => {
                   <li className="mb-4">
                     <a
                       className="fw-bold"
-                      href="https://atom.starhealth.in/products?type=AGENT&token=337fcb28-1858-4352-8a6c-ecc1504300fb&source=ATOM"
+                      href="https://atom.starhealth.in/products?type=AGENT&token=29652449-afb7-4ea0-a311-8bfd6490b260&source=ATOM"
                       target="_blank"
                       rel="noreferrer"
                     >
