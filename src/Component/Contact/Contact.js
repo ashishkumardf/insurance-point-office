@@ -69,7 +69,7 @@ export default function Contact() {
           </div>
           <div className="social-icons mt-5">
             <a
-              href="https://www.facebook.com/aashish.kumar.37454"
+              href="https://www.facebook.com/Insurance-Point-Office-101369775385200/"
               target="_blank"
             >
               <FontAwesomeIcon
@@ -77,10 +77,10 @@ export default function Contact() {
                 color="white"
                 className="mt-5"
               />
-              <span className="link text-white">aashish.kumar.37454</span>
+              <span className="link text-white">Insurance Point Office</span>
             </a>
             <a
-              href="https://instagram.com/ashish_kumar_prasad?igshid=1w806o0g53bu3"
+              href="https://instagram.com/insurance_point_office?utm_medium=copy_link"
               target="_blank"
             >
               <FontAwesomeIcon
@@ -88,7 +88,7 @@ export default function Contact() {
                 color="white"
                 className="mt-5"
               />
-              <span className="link text-white">ashish_kumar_prasad</span>
+              <span className="link text-white">insurance_point_office</span>
             </a>
             <a
               href="https://www.linkedin.com/in/ashish-kumar-31493b18b"

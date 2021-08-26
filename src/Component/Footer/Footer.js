@@ -48,7 +48,7 @@ function Footer() {
           {/* <!-- Right --> */}
           <div className="p-4">
             <a
-              href="https://www.facebook.com/aashish.kumar.37454"
+              href="https://www.facebook.com/Insurance-Point-Office-101369775385200/"
               target="_blank"
               className="social_icons fs-1 m-4"
             >
@@ -72,7 +72,7 @@ function Footer() {
               <FontAwesomeIcon icon={faYoutube} />
             </a>
             <a
-              href="https://instagram.com/ashish_kumar_prasad?igshid=1w806o0g53bu3"
+              href="https://instagram.com/insurance_point_office?utm_medium=copy_link"
               target="_blank"
               className="social_icons fs-1 m-4"
             >
