@@ -58,6 +58,25 @@ const Vehicle = () => {
                     insurance policies and save the best amount on your premium.
                   </span>
                 </p>
+                <p className="mx-sm-5 mx-3 mt-5 content_para">
+                  In addition to vehicle insurance, some of the other important
+                  vehicle services provided by Insurance Point Office are as
+                  follows:
+                  <br />
+                  <span className="fw-bold">
+                    1. Vehicle Transfer / Registration/ Re-registration
+                  </span>
+                  <br />
+                  <span className="fw-bold">2. Vehicle Fitness</span>
+                  <br />
+                  <span className="fw-bold">3. Vehicle Permit</span>
+                  <br />
+                  <span className="fw-bold">4. Driving licence</span>
+                  <br />
+                  <span className="fw-bold">5. Vehicle Pollution</span>
+                  <br />
+                  <span className="fw-bold">6. Road tax</span>
+                </p>
               </article>
               <article>
                 <h1 className="text-center topics_header">
