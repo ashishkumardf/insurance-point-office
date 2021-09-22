@@ -31,6 +31,7 @@ import Shop from '../src/Component/Services/Shop/Shop';
 import Flat from '../src/Component/Services/Flat/Flat';
 import Cattle from '../src/Component/Services/Cattle/Cattle';
 import Fire from '../src/Component/Services/Fire/Fire';
+import Loan from '../src/Component/Services/Loan/Loan';
 import Other from '../src/Component/Services/Other/Other';
 
 // ----------------------------------------------------SERVICE SECTION COMPONENTS ENDS---------------------
@@ -72,6 +73,7 @@ function App() {
         <Route exact path="/services/shop-insurance" component={Shop} />
         <Route exact path="/services/flat-insurance" component={Flat} />
         <Route exact path="/services/cattle-insurance" component={Cattle} />
+        <Route exact path="/services/loan" component={Loan} />
         <Route
           exact
           path="/services/fire-and-perils-insurance"

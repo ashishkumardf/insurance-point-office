@@ -266,6 +266,17 @@ function Footer() {
                     {'  '}+91-8797266400
                   </a>
                 </p>
+                <p className="footer_para">
+                  <a
+                    href="tel:++91-6202849306"
+                    className="footer_links text-decoration-none fw-bold"
+                  >
+                    {/* <i className="fas fa-phone me-3"></i> */}
+                    <FontAwesomeIcon icon={faPhone} />
+                    {'  '}
+                    Office Number. +91-6202849306
+                  </a>
+                </p>
               </div>
               {/* <!-- Grid column --> */}
             </div>

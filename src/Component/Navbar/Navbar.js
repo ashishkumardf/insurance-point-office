@@ -235,6 +235,16 @@ export default function Navbar() {
                       className="dropdown-item"
                       exact
                       activeClassName="active_class"
+                      to="/services/loan"
+                    >
+                      LOAN
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/other-financial-services"
                     >
                       OTHER FINANCIAL SERVICES
