@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.501e82be.chunk.css",
-    "main.js": "/static/js/main.00391032.chunk.js",
-    "main.js.map": "/static/js/main.00391032.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4b6ead2c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4b6ead2c.js.map",
+    "main.css": "/static/css/main.64fbc5df.chunk.css",
+    "main.js": "/static/js/main.c803630e.chunk.js",
+    "main.js.map": "/static/js/main.c803630e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9ee285e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9ee285e0.js.map",
     "static/css/2.7864fb45.chunk.css": "/static/css/2.7864fb45.chunk.css",
-    "static/js/2.fe601b39.chunk.js": "/static/js/2.fe601b39.chunk.js",
-    "static/js/2.fe601b39.chunk.js.map": "/static/js/2.fe601b39.chunk.js.map",
-    "static/js/3.8d02edae.chunk.js": "/static/js/3.8d02edae.chunk.js",
-    "static/js/3.8d02edae.chunk.js.map": "/static/js/3.8d02edae.chunk.js.map",
+    "static/js/2.d9b254cb.chunk.js": "/static/js/2.d9b254cb.chunk.js",
+    "static/js/2.d9b254cb.chunk.js.map": "/static/js/2.d9b254cb.chunk.js.map",
+    "static/js/3.4aa5373b.chunk.js": "/static/js/3.4aa5373b.chunk.js",
+    "static/js/3.4aa5373b.chunk.js.map": "/static/js/3.4aa5373b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7864fb45.chunk.css.map": "/static/css/2.7864fb45.chunk.css.map",
-    "static/css/main.501e82be.chunk.css.map": "/static/css/main.501e82be.chunk.css.map",
-    "static/js/2.fe601b39.chunk.js.LICENSE.txt": "/static/js/2.fe601b39.chunk.js.LICENSE.txt",
+    "static/css/main.64fbc5df.chunk.css.map": "/static/css/main.64fbc5df.chunk.css.map",
+    "static/js/2.d9b254cb.chunk.js.LICENSE.txt": "/static/js/2.d9b254cb.chunk.js.LICENSE.txt",
     "static/media/About.css": "/static/media/About_us.97361028.jpg",
     "static/media/Accident.10236cd0.pdf": "/static/media/Accident.10236cd0.pdf",
     "static/media/Accident.css": "/static/media/Accidental.d368edd8.jpg",
@@ -128,6 +128,7 @@
     "static/media/image7.d37d42f1.jpg": "/static/media/image7.d37d42f1.jpg",
     "static/media/image8.af1a027e.jpg": "/static/media/image8.af1a027e.jpg",
     "static/media/image9.9eb2f411.jpg": "/static/media/image9.9eb2f411.jpg",
+    "static/media/Loan.css": "/static/media/loan.bfbf2397.jpg",
     "static/media/logo.22017caa.png": "/static/media/logo.22017caa.png",
     "static/media/Machine.css": "/static/media/machine_bg.4ffcf0bf.jpg",
     "static/media/machine_icon.187fae7d.png": "/static/media/machine_icon.187fae7d.png",
@@ -143,10 +144,10 @@
     "static/media/travel_icon.6eb30eb0.png": "/static/media/travel_icon.6eb30eb0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b6ead2c.js",
+    "static/js/runtime-main.9ee285e0.js",
     "static/css/2.7864fb45.chunk.css",
-    "static/js/2.fe601b39.chunk.js",
-    "static/css/main.501e82be.chunk.css",
-    "static/js/main.00391032.chunk.js"
+    "static/js/2.d9b254cb.chunk.js",
+    "static/css/main.64fbc5df.chunk.css",
+    "static/js/main.c803630e.chunk.js"
   ]
 }
