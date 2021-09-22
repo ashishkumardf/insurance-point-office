@@ -22,6 +22,7 @@ import Icon14 from '../../Assets/HomeServiceIcons/flat_icon.png';
 import Icon15 from '../../Assets/HomeServiceIcons/fire_icon.svg';
 import Icon16 from '../../Assets/HomeServiceIcons/cattle_icon.png';
 import Icon17 from '../../Assets/HomeServiceIcons/other_icon.png';
+import Icon18 from '../../Assets/HomeServiceIcons/loan_icon.png';
 
 export default function Heroservice() {
   return (
@@ -288,6 +289,22 @@ export default function Heroservice() {
               />
               <br />
               <p className="h4 text-center homeservice_para pt-3">Cattle</p>
+            </div>
+          </NavLink>
+        </div>
+        <div
+          className="col-md-2 col-sm-4 col-6 my-3 d-flex justify-content-center"
+          data-aos="fade-down"
+        >
+          <NavLink to="/services/loan">
+            <div className="service_card shadow-lg">
+              <img
+                className="d-block mx-auto homeservice_image"
+                src={Icon18}
+                alt="service_image"
+              />
+              <br />
+              <p className="h4 text-center homeservice_para pt-3">Loan</p>
             </div>
           </NavLink>
         </div>
