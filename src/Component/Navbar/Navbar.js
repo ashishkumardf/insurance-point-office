@@ -125,9 +125,9 @@ export default function Navbar() {
                       className="dropdown-item"
                       exact
                       activeClassName="active_class"
-                      to="/services/commercial-product-insurance"
+                      to="/services/transit-insurance"
                     >
-                      COMMERCIAL CARE INSURANCE
+                      TRANSIT INSURANCE
                     </NavLink>
                   </li>
                   <li>

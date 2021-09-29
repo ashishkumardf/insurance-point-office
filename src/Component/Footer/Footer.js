@@ -234,7 +234,8 @@ function Footer() {
                   {/* <i className="fas fa-home me-3"></i>  */}
                   <FontAwesomeIcon icon={faHome} />
                   {'  '}H. No.-1, R. No.-1, Laxmi Nagar, Bharat Bhawan, Near
-                  Hanuman Mandir(LIC Office), P.O. - Telco, Jamshedpur - 831004
+                  Hanuman Mandir(Insurance Point Office), P.O. - Telco,
+                  Jamshedpur - 831004
                 </p>
                 <p className="footer_para">
                   {/* <i className="fas fa-envelope me-3"></i> */}

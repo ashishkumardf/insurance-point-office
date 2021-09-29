@@ -8,7 +8,7 @@ const Commercial = () => {
     <main className="service_components_container">
       <section className="commercial_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
-          COMMERCIAL CARE INSURANCE
+          TRANSIT INSURANCE
         </h1>
       </section>
       <section className="content">
@@ -17,12 +17,12 @@ const Commercial = () => {
             <div className="col col-md-6 col-12 left_column">
               <article>
                 <h1 className="text-center topics_header">
-                  What is Commercial Care Inusrance ?
+                  What is Transit Inusrance ?
                 </h1>
                 <p className="mx-sm-5 mx-3 content_para">
-                  Commercial Care Policy is a business insurance policy that
-                  covers a wide variety of risks to which your business
-                  operations are exposed. Be it{' '}
+                  Transit Policy is a business insurance policy that covers a
+                  wide variety of risks to which your business operations are
+                  exposed. Be it{' '}
                   <span className="fw-bold">
                     fire, public liability, or machinery breakdown,
                   </span>{' '}
@@ -32,7 +32,7 @@ const Commercial = () => {
               </article>
               <article>
                 <h1 className="text-center topics_header">
-                  Benefits Of Commercial Care Insurance.
+                  Benefits Of Transit Insurance.
                 </h1>
                 <p className="mx-sm-5 mx-3 content_para">
                   <ol>

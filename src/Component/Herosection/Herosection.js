@@ -4,7 +4,7 @@ import ExploreIcon from '@material-ui/icons/Explore';
 import ShopIcon from '@material-ui/icons/Shop';
 import '../../index.css';
 import './Herosection.css';
-import Brochure from '../../Assets/Forms/Insurance_Point_Office.pdf';
+import Brochure from '../../Assets/Forms/Insurance_Point_Office_Brochure.pdf';
 
 const materialUiStyling = {
   fontSize: '1.1rem',

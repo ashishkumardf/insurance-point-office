@@ -61,7 +61,7 @@ function App() {
         <Route exact path="/services/travel-insurance" component={Travel} />
         <Route
           exact
-          path="/services/commercial-product-insurance"
+          path="/services/transit-insurance"
           component={Commercial}
         />
         <Route exact path="/services/marine-insurance" component={Marine} />

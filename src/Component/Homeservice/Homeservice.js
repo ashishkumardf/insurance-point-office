@@ -118,7 +118,7 @@ export default function Heroservice() {
           className="col-md-2 col-sm-4 col-6 my-3 d-flex justify-content-center"
           data-aos="fade-down"
         >
-          <NavLink to="/services/commercial-product-insurance">
+          <NavLink to="/services/transit-insurance">
             <div className="service_card shadow-lg">
               <img
                 className="d-block mx-auto homeservice_image"
@@ -126,7 +126,7 @@ export default function Heroservice() {
                 alt="service_image"
               />
               <br />
-              <p className="h4 text-center homeservice_para pt-3">Commercial</p>
+              <p className="h4 text-center homeservice_para pt-3">Transit</p>
             </div>
           </NavLink>
         </div>
