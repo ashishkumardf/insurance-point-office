@@ -28,6 +28,7 @@ import Image23 from '../../Assets/Gallery/image23.jpg';
 import Image24 from '../../Assets/Gallery/image24.jpeg';
 import Image25 from '../../Assets/Gallery/image25.jpeg';
 import Image26 from '../../Assets/Gallery/image26.jpeg';
+import Image27 from '../../Assets/Gallery/image27.jpg';
 const Gallery = () => {
   useEffect(() => {
     AOS.init({
@@ -232,6 +233,14 @@ const Gallery = () => {
             <img
               className="gallery_image"
               src={Image26}
+              alt="gallery_image"
+              data-aos="fade-down"
+            />
+          </div>
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
+            <img
+              className="gallery_image"
+              src={Image27}
               alt="gallery_image"
               data-aos="fade-down"
             />

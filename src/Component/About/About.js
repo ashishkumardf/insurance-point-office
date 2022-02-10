@@ -80,6 +80,7 @@ const About = () => {
             <p className="pt-4">
               Some of my past achievements are as follows:
               <ul className="fst-italic fw-bold pt-3">
+                <li>1st CTO 2022 from Mango branch, Jamshedpur</li>
                 <li>Club Galaxy Since 2020</li>
                 <li>CM's Club Member since 2003</li>
                 <li>MDRT 12 Times</li>
