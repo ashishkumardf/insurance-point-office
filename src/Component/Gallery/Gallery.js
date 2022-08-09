@@ -6,7 +6,7 @@ import Image1 from '../../Assets/Gallery/image1.jpg';
 import Image2 from '../../Assets/Gallery/image2.jpg';
 import Image3 from '../../Assets/Gallery/image3.jpg';
 import Image4 from '../../Assets/Gallery/image4.jpg';
-import Image5 from '../../Assets/Gallery/image5.jpg';
+import Image5 from '../../Assets/Gallery/image32.jpg';
 import Image6 from '../../Assets/Gallery/image6.jpg';
 import Image7 from '../../Assets/Gallery/image7.jpg';
 import Image8 from '../../Assets/Gallery/image8.jpg';
@@ -33,6 +33,7 @@ import Image28 from '../../Assets/Gallery/image28.jpg';
 import Image29 from '../../Assets/Gallery/image29.jpg';
 import Image30 from '../../Assets/Gallery/image30.jpg';
 import Image31 from '../../Assets/Gallery/image31.jpg';
+import Image33 from '../../Assets/Gallery/image33.jpg';
 const Gallery = () => {
   useEffect(() => {
     AOS.init({
@@ -277,6 +278,14 @@ const Gallery = () => {
             <img
               className="gallery_image"
               src={Image31}
+              alt="gallery_image"
+              data-aos="fade-down"
+            />
+          </div>
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
+            <img
+              className="gallery_image"
+              src={Image33}
               alt="gallery_image"
               data-aos="fade-down"
             />
