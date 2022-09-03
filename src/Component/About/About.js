@@ -86,6 +86,7 @@ const About = () => {
                 <li>MDRT 12 Times</li>
                 <li>EC Member LIC Agent Association</li>
                 <li>Return From USA 2011</li>
+                <li>Return From Australia 2022</li>
               </ul>
             </p>
             <p className="pt-4">
