@@ -343,6 +343,16 @@ const Gallery = () => {
               allowfullscreen
             ></iframe>
           </div>
+          <div className="iframe_container mb-5">
+            <iframe
+              className="responsive_iframe"
+              src="https://www.youtube.com/embed/UJcIkoksydI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
         <div className="col col-md-6 col-12 right_column">
           <div className="iframe_container mb-5">
